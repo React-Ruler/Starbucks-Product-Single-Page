@@ -1,148 +1,215 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mocha Cookie Crumble Frappuccino | Starbucks Coffee Company</title>
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
-  <body>
-    <!--navigation-->
-    <nav class="navbar has-shadow">
-      <div class="navbar-brand">
-        <a href="#" class="navbar-item">
-          <img
-            src="assets/starbucks_logo.png"
-            alt="Starbucks Logo"
-            style="max-height: 90px"
-            class="py-2 px-2"
-          />
-        </a>
-        <a href="#" class="navbar-burger" id="burger">
-          <span></span>
-          <span></span>
-          <span></span>
-        </a>
-      </div>
-      <div class="navbar-menu" id="nav-links">
-        <div class="navbar-end">
-          <a href="#" class="navbar-item">My Account</a>
-          <a href="#" class="navbar-item">Shopping Cart (0)</a>
-        </div>
-      </div>
-    </nav>
 
-    <!--breadcrumbs-->
-    <div class="section pt-4 pb-0">
-      <nav class="breadcrumb has-succeeds-separator">
-        <ul class="container">
-          <li>
-            <a class="has-text-grey is-size-7-mobile" href="#"
-              >Starbucks Coffee</a
-            >
-          </li>
-          <li><a class="has-text-grey is-size-7-mobile" href="#">Shop</a></li>
-          <li class="is-active">
-            <a href="#" class="is-size-7-mobile"
-              >Mocha Cookie Crumble Frappuccino</a
-            >
-          </li>
-        </ul>
-      </nav>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mocha Cookie Crumble Frappuccino | Starbucks Coffee Company</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <!--navigation-->
+  <nav class="navbar has-shadow">
+    <div class="navbar-brand">
+      <a class="navbar-item">
+        <img src="assets/starbucks_logo.png" alt="Starbucks Logo" style="max-height: 90px" class="py-2 px-2" />
+      </a>
+      <a  class="navbar-burger" id="burger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </a>
     </div>
-    <!--Product Information-->
-    <section class="section">
-      <div class="container">
-        <div class="columns is-vcentered is-multiline">
-          <div class="column is-6-tablet is-4-desktop">
-            <h1 class="is-size-3-mobile is-size-1-desktop title">
-              Mocha Cookie Crumble Frappuccino<span class="is-size-4"
-                ><sup>&reg;</sup></span
-              >
-            </h1>
-            <h2 class="is-size-3-mobile is-size-2-desktop subtitle">
-              blended beverage
-            </h2>
-            <p>
-              Coffee, milk and ice join rich mocha sauce, Frappuccino® chips and
-              a cookie-crumble topping.
-            </p>
+    <div class="navbar-menu" id="nav-links">
+      <div class="navbar-start">
+            
+        <a class="navbar-item has-text-weight-bold"> Menu </a>
+        <a class="navbar-item has-text-weight-bold"> Rewards </a>
+        <a class="navbar-item has-text-weight-bold"> Gift Cards</a>
+      </div>
+      <div class="navbar-end">
+        <a class="navbar-item">My Account</a>
+        <a class="navbar-item">Shopping Cart (0)</a>
+      </div>
+    </div>
+  </nav>
+
+  <!--breadcrumbs-->
+  <div class="section pt-4 pb-0">
+    <nav class="breadcrumb" aria-label="breadcrumbs">
+      <ul class="container">
+        <li>
+          <a class="has-text-grey is-size-7-mobile" >Starbucks Coffee</a>
+        </li>
+        <li><a class="has-text-grey is-size-7-mobile" >Shop</a></li>
+        <li class="is-active">
+          <a  class="is-size-7-mobile">Mocha Cookie Crumble Frappuccino</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  <!--Product Information-->
+  <section class="section">
+    <div class="container">
+      <div class="columns is-vcentered is-multiline">
+        <div class="column is-6-tablet is-4-desktop">
+          <h1 class="is-size-3-mobile is-size-1-desktop title">
+            Mocha Cookie Crumble Frappuccino<span class="is-size-4"><sup>&reg;</sup></span>
+          </h1>
+          <h2 class="is-size-3-mobile is-size-2-desktop subtitle">
+            blended beverage
+          </h2>
+          <p>
+            Coffee, milk and ice join rich mocha sauce, Frappuccino® chips and
+            a cookie-crumble topping.
+          </p>
+        </div>
+        <div class="column is-6-tablet is-5-desktop has-text-centered">
+          <img src="assets/product-mocha-cookie crumble -frappuccino.png" alt="Mocha Cookie Crumble Frappuccino®"
+            class="px-10" />
+        </div>
+        <div class="column is-12-tablet is-3-desktop">
+          <div class="is-size-4 mb-4">₦5,720.00</div>
+          <p class="mb-4">
+            To place an order, you'll need to be a Starbucks® Rewards member
+          </p>
+          <button class="button is-warning">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container">
+      <div class="columns is-8 is-variable">
+        <div class="column is-7-tablet">
+          <!--Tabbed Content-->
+          <div class="tabs is-boxed">
+            <ul>
+              <li class="is-active" data-target="product-details">
+                <a>Product Details</a>
+              </li>
+              <li data-target="delivery-information">
+                <a>Delivery Information</a>
+              </li>
+            </ul>
           </div>
-          <div class="column is-6-tablet is-5-desktop has-text-centered">
-            <img
-              src="assets/product-mocha-cookie crumble -frappuccino.png"
-              alt="Mocha Cookie Crumble Frappuccino®"
-              class="px-10"
-            />
+          <div class="px-2" id="tab-content">
+            <div id="product-details">
+              <h3 class="is-size-5 title">Product Details</h3>
+              <p class="pb-4">
+                Frappuccino® Roast coffee, mocha sauce and Frappuccino® chips
+                blended with milk and ice, layered on top of whipped cream and
+                chocolate cookie crumble and topped with vanilla whipped
+                cream, mocha drizzle and even more chocolate cookie crumble.
+                Each sip is as good as the last . . . all the way to the end.
+              </p>
+
+              <p class="has-text-weight-bold">
+                590 calories, 75g sugar, 27g fat
+              </p>
+            </div>
+
+            <div id="delivery-information" class="is-hidden">
+              <h3 class="is-size-5 title">Delivery Information</h3>
+              <p>
+                <span class="icon"> <i class="fas fa-location-dot"></i> </span>Available at Ozumba Mbadiwe Street,
+                Victoria Island
+              </p>
+            </div>
           </div>
-          <div class="column is-12-tablet is-3-desktop">
-            <div class="is-size-4 mb-4">₦ 5,714.37</div>
-            <p class="mb-4">
-              To place an order, you'll need to be a Starbucks® Rewards member
-            </p>
+        </div>
+        <div class="column is-5-tablet">
+          <!--Message Box-->
+          <div class="message">
+            <div class="message-header">
+              <p>Nutrition</p>
+            </div>
+            <div class="message-body">
+              <p>
+                Nutrition information is calculated based on our standard
+                recipes. Only changing drink size will update this
+                information. Other customizations will not.
+              </p>
+              <div class="has-text-centered">
+                <button class="button mt-5">readmore</button>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </section>
-    <section class="section">
-      <div class="container">
-        <div class="columns is-8 is-variable">
-          <div class="column is-7-tablet">
-            <!--Tabbed Content-->
-            <div class="tabs is-boxed">
-              <ul>
-                <li class="is-active" data-target="product-details">
-                  <a>Product Details</a>
-                </li>
-                <li data-target="delivery-information">
-                  <a>Delivery Information</a>
-                </li>
-              </ul>
+    </div>
+    </div>
+  </section>
+  <!--Cards-->
+  <section class="section is-hidden-mobile">
+    <div class="container">
+      <h3 class="title has-text-centered is-size-4">
+        Related Products
+      </h3>
+      <div class="columns mt-5 is-8 is-varibale is-centered">
+        <div class="column is-4-tablet is-3-desktop">
+          <div class="card">
+            <div class="card-image has-text-centered px-6">
+              <img src="assets/card-drink-image-1.png" alt="">
             </div>
-            <div class="px-2" id="tab-content">
-              <div id="product-details">
-                <h3 class="is-size-5 title">Product Details</h3>
-                <p class="pb-4">
-                  Frappuccino® Roast coffee, mocha sauce and Frappuccino® chips
-                  blended with milk and ice, layered on top of whipped cream and
-                  chocolate cookie crumble and topped with vanilla whipped
-                  cream, mocha drizzle and even more chocolate cookie crumble.
-                  Each sip is as good as the last . . . all the way to the end.
-                </p>
-
-                <p class="has-text-weight-bold">
-                  590 calories, 75g sugar, 27g fat
-                </p>
-              </div>
-
-              <div id="delivery-information" class="is-hidden">
-                <h3 class="is-size-5 title">Delivery Information</h3>
-                 <p><span class="icon">
-                  <i class="fas fa-location-dot"></i>
-                </span>Available at Ozumba Mbadiwe Street, Victoria Island</p>
-              </div>
+            <div class="card-content">
+              <p>₦4,200.00</p>
+              <p class="title is-size-5">Strawberry Açaí Lemonade Starbucks Refreshers® Beverage</p>
             </div>
+            <footer class="card-footer">
+              <p class="card-footer-item">
+                <a  class="has-text-grey">View Product</a>
+              </p>
+            </footer>
           </div>
-          <div class="column is-5-tablet">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel,
-              vitae placeat adipisci eaque magni modi! Aperiam ab dicta, itaque
-              exercitationem mollitia labore aut, error, est repudiandae dolorem
-              repellendus dolorum perferendis!
-            </p>
+        </div>
+        <div class="column is-4-tablet is-3-desktop">
+          <div class="card">
+            <div class="card-image has-text-centered px-6">
+              <img src="assets/card-drink-image-2.png" alt="">
+            </div>
+            <div class="card-content">
+              <p>₦4,150.00</p>
+              <p class="title is-size-5">Mango Dragonfruit Lemonade Starbucks Refreshers® Beverage</p>
+            </div>
+            <footer class="card-footer">
+              <p class="card-footer-item">
+                <a  class="has-text-grey">View Product</a>
+              </p>
+            </footer>
+          </div>
+        </div>
+        <div class="column is-4-tablet is-3-desktop">
+          <div class="card">
+            <div class="card-image has-text-centered px-6">
+              <img src="assets/card-drink-image-3.png" alt="">
+            </div>
+            <div class="card-content">
+              <p>₦5,200.00</p>
+              <p class="title is-size-5">Caramel Ribbon Crunch Crème Frappuccino® Blended</p>
+            </div>
+            <footer class="card-footer">
+              <p class="card-footer-item">
+                <a  class="has-text-grey">View Product</a>
+              </p>
+            </footer>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section class="section">
-      <footer class="footer">
-        <div class="content has-text-centered">
-          <p>© 2022 Starbucks Coffee Company. All rights reserved.</p>
-        </div>
-      </footer>
-    </section>
-    <script src="js/index.js"></script>
-  </body>
+  <!--Footer-->
+  <section class="section">
+    <footer class="footer">
+      <div class="content has-text-centered">
+        <p>© 2022 Starbucks Coffee Company. All rights reserved.</p>
+      </div>
+    </footer>
+  </section>
+  <script src="js/index.js"></script>
+</body>
+
 </html>
